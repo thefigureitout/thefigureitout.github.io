@@ -10,7 +10,7 @@ jQuery(function( $ ){
 var $news = $('#news-ticker');//we'll re use it a lot, so better save it to a var.
 $news.serialScroll({
   items:'div',
-  duration:2000,
+  duration:4000,
   force:true,
   axis:'y',
   easing:'linear',
